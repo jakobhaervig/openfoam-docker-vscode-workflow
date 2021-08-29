@@ -1,5 +1,5 @@
 # Visual Studio Code workflow for OpenFOAM with Docker
-Repository describing the OpenFOAM, Docker, Visual Studio Code workflow
+Repository describing my favourite workflow combining Visual Studio Code, OpenFOAM and Docker 
 
 ## 1. Installing extensions
 Install the extensions:

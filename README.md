@@ -10,7 +10,7 @@ Install the extensions:
 ![](install-extensions.gif)
 
 ## 2. Associate OpenFOAM files for syntax highlighting:
-![](files-associations.gif)
+![](associate-file-extensions.gif)
 
 ## 3. Start a Docker container from Visual Studio Code
 

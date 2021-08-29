@@ -7,6 +7,7 @@ Install the extensions:
 2. *Remote - Containers*
 3. *OpenFOAM*:
 
+![](install-extensions.gif)
 
 ## 2. Associate OpenFOAM files for syntax highlighting:
 ![](files-associations.gif)

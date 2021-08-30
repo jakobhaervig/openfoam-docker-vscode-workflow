@@ -1,8 +1,11 @@
 # Visual Studio Code workflow for OpenFOAM with Docker
-Repository describing my favourite workflow combining Visual Studio Code, OpenFOAM and Docker.
+Repository describing my favourite workflow combining Visual Studio Code, OpenFOAM and Docker. Make sure to first follow the guide at [https://github.com/jakobhaervig/openfoam-dockerfiles](https://github.com/jakobhaervig/openfoam-dockerfiles) before continuing with this guide.
 
-## 1. Installing extensions
-Install the extensions:
+## 1. Install Visual Studio Code
+First, install the text editor [Visual Studio Code](https://code.visualstudio.com)
+
+## 2. Install extensions
+Install the following extensions, which will help our OpenFOAM workflow:
 1. *Docker*
 2. *Remote - Containers*
 3. *OpenFOAM*
@@ -14,7 +17,7 @@ Install the extensions:
 ![](associate-file-extensions.gif)
 
 ## 3. Start Docker container
-First, make sure Docker is running and you've build a Docker image container your OpenFOAM installation. If you are unsure I recommend following [github.com/jakobhaervig/openfoam-dockerfiles](https://github.com/jakobhaervig/openfoam-dockerfiles), which will help us build a Docker image containing your preferred OpenFOAM version.
+First, make sure Docker is running and you've build a Docker image container your OpenFOAM installation by following [github.com/jakobhaervig/openfoam-dockerfiles](https://github.com/jakobhaervig/openfoam-dockerfiles).
 
 Next, start a terminal in VS Code and run the following command to start a Docker container:
 
@@ -25,7 +28,8 @@ docker container run -ti --rm -v $HOME/openfoam-data:/data -w /data openfoam:v21
 
 ![](startContainer.gif)
 
-## 4. Attach the Docker container
+## 6. Open a folder to access the file system
+Finally, make sure to open a folder at the root to gain full access to the file system in the Docker container:
 
 ![](attachVSCode.gif)
 

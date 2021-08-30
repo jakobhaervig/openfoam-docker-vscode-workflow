@@ -12,7 +12,8 @@ Install the following extensions, which will help our OpenFOAM workflow:
 
 ![](install-extensions.gif)
 
-## 3. Associate OpenFOAM files for syntax highlighting:
+## 3. Associate OpenFOAM files for syntax highlighting (optional)
+Next, we associate file types with OpenFOAM to get syntax highlighting. 
 ![](associate-file-extensions.gif)
 
 ## 4. Start a Docker container from Visual Studio Code

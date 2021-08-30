@@ -28,12 +28,13 @@ docker container run -ti --rm -v $HOME/openfoam-data:/data -w /data openfoam:v21
 
 ![](startContainer.gif)
 
-## 6. Open a folder to access the file system
-Finally, make sure to open a folder at the root to gain full access to the file system in the Docker container:
+## 4. Attach Visual Studio Code to the running Docker container
+Attach Visual Studio Code to the running Docker container. This enables us to access the file system within the container directly in VS Code.
 
 ![](attachVSCode.gif)
 
 ## 5. Open a folder to access the file system
+Finally, make sure to open a folder at the root to gain full access to the file system in the Docker container:
 
 ![](openFolder.gif)
 

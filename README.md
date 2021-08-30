@@ -34,7 +34,7 @@ Attach Visual Studio Code to the running Docker container. This enables us to ac
 ![](attachVSCode.gif)
 
 ## 5. Open a folder to access the file system
-Finally, make sure to open a folder at the root to gain full access to the file system in the Docker container:
+Finally, from within the newly opened window open a folder at root ``/`` to gain full access to the file system of the Docker container:
 
 ![](openFolder.gif)
 

@@ -5,10 +5,10 @@ Repository describing my favourite workflow combining Visual Studio Code, OpenFO
 First, install the text editor [Visual Studio Code](https://code.visualstudio.com)
 
 ## 2. Install extensions
-Install the extensions:
+Install the following extensions, which will help our OpenFOAM workflow:
 1. *Docker*
 2. *Remote - Containers*
-3. *OpenFOAM*:
+3. *OpenFOAM* (optional)
 
 ![](install-extensions.gif)
 

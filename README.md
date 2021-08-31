@@ -39,5 +39,9 @@ From within the newly opened window open a folder at root ``/`` to gain full acc
 ![](openFolder.gif)
 
 ## 6. Open a terminal from within the Docker container
+Open a new terminal within the Docker container and test if OpenFOAM is sourced correctly:
+```shell
+simpleFoam -help
 
+```
 ![](terminalInContainer.gif)

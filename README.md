@@ -33,9 +33,11 @@ Attach Visual Studio Code to the running Docker container. This enables us to ac
 
 ![](attachVSCode.gif)
 
-## 5. Open a folder to access the file system
-Finally, from within the newly opened window open a folder at root ``/`` to gain full access to the file system of the Docker container.
+## 5. Open a folder to access the file system within the Docker container
+From within the newly opened window open a folder at root ``/`` to gain full access to the file system of the Docker container.
 
 ![](openFolder.gif)
 
-Now everything is set up and you are ready to do OpenFOAM simulations :-)
+## 6. Open a terminal from within the Docker container
+
+![](terminalInContainer.gif)

@@ -17,7 +17,7 @@ Install the following extensions, which will help our OpenFOAM workflow:
 ![](associate-file-extensions.gif)
 
 ## 3. Start Docker container
-First, make sure Docker is running and you've build a Docker image container your OpenFOAM installation by following [github.com/jakobhaervig/openfoam-dockerfiles](https://github.com/jakobhaervig/openfoam-dockerfiles).
+First, make sure Docker is running and you've build a Docker image containing your OpenFOAM installation by following [github.com/jakobhaervig/openfoam-dockerfiles](https://github.com/jakobhaervig/openfoam-dockerfiles).
 
 Next, start a terminal in VS Code and run the following command to start a Docker container:
 

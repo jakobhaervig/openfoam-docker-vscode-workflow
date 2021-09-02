@@ -10,14 +10,14 @@ Install the following extensions, which will help our OpenFOAM workflow:
 2. *Remote - Containers*
 3. *OpenFOAM*
 
-![](install-extensions.gif)
+![](installExtensions.gif)
 
-## 2. Associate OpenFOAM-specific files to enable syntax highlighting
+## 3. Associate OpenFOAM-specific files to enable syntax highlighting
 
-![](associate-file-extensions.gif)
+![](associateFileExtensions.gif)
 
-## 3. Start Docker container
-First, make sure Docker is running and you've build a Docker image containing your OpenFOAM installation by following [github.com/jakobhaervig/openfoam-dockerfiles](https://github.com/jakobhaervig/openfoam-dockerfiles).
+## 4. Start Docker container
+First, make sure Docker is running and you have a Docker image avialable with your OpenFOAM installation. I have a created a guide [github.com/jakobhaervig/openfoam-dockerfiles](https://github.com/jakobhaervig/openfoam-dockerfiles), which will guide you through the process if in doubt.
 
 Next, start a terminal in VS Code and run the following command to start a Docker container:
 
@@ -28,17 +28,17 @@ docker container run -ti --rm -v $HOME/openfoam-data:/data -w /data openfoam:v21
 
 ![](startContainer.gif)
 
-## 4. Attach Visual Studio Code to the running Docker container
+## 5. Attach Visual Studio Code to the running Docker container
 Attach Visual Studio Code to the running Docker container. This enables us to access the file system within the container directly in VS Code.
 
 ![](attachVSCode.gif)
 
-## 5. Open a folder to access the file system within the Docker container
+## 6. Open a folder to access the file system within the Docker container
 From within the newly opened window open a folder at root ``/`` to gain full access to the file system of the Docker container.
 
 ![](openFolder.gif)
 
-## 6. Open a terminal from within the Docker container
+## 7. Open a terminal from within the Docker container
 Open a new terminal within the Docker container and test if OpenFOAM is sourced correctly:
 ```shell
 simpleFoam -help

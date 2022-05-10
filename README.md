@@ -22,7 +22,7 @@ First, make sure Docker is running and you have a Docker image avialable with yo
 Next, start a terminal in VS Code and run the following command to start a Docker container:
 
 ```shell
-docker container run -ti --rm -v $HOME/openfoam-data:/data -w /data openfoam:v2106
+docker container run -ti --rm -v $HOME/openfoam-data:/data -w /data openfoam:v2112
 
 ```
 

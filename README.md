@@ -19,11 +19,17 @@ Install the following extensions, which will help our OpenFOAM workflow:
 ## 4. Start Docker container
 First, make sure Docker is running and you have a Docker image avialable with your OpenFOAM installation. I have a created a guide [github.com/jakobhaervig/openfoam-dockerfiles](https://github.com/jakobhaervig/openfoam-dockerfiles), which will guide you through the process if in doubt.
 
-Next, start a terminal in VS Code and run the following command to start a Docker container:
+Use the alias ``of`` to start a Docker container:
 
 ```shell
-docker container run -ti --rm -v $HOME/openfoam-data:/data -w /data openfoam:v2112
+of
 
+```
+
+If your alias isn't set up correctly, you can start a Docker container by the full command::
+
+```shell
+docker container run -ti --rm -v $HOME/openfoam-data:/data -w /data openfoam:latest
 ```
 
 ![](startContainer.gif)
